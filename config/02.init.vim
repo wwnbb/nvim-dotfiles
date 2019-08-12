@@ -17,6 +17,7 @@ set nu
 " Enable line/column info at bottom
 set ruler
 set cursorline " highlights current line
+set noswapfile
 
 set scrolloff=10
 
@@ -78,3 +79,5 @@ let g:ale_linters_explicit = 1
 " terminal settings
 autocmd BufWinEnter,WinEnter term://* startinsert
 autocmd BufLeave term://* stopinsert
+let g:ale_virtualtext_cursor=0
+
