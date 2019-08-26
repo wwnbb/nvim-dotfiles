@@ -80,4 +80,5 @@ let g:ale_linters_explicit = 1
 autocmd BufWinEnter,WinEnter term://* startinsert
 autocmd BufLeave term://* stopinsert
 let g:ale_virtualtext_cursor=0
+let g:LanguageClient_useVirtualText=0
 
